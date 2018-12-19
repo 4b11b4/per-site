@@ -22,6 +22,10 @@ body {
         indigo 300px, violet 350px, red 370px);
 }
 
+h1 {
+  text-align:center;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
