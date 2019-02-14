@@ -57,3 +57,10 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+
+.container{text-align:center;}
+.container img{
+  display:inline-block;
+  width:30%;
+  margin:0 1% 0 1%;
+  }
