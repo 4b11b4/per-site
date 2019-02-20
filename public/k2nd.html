@@ -44,7 +44,7 @@ For list of all attributes: https://www.w3schools.com/tags/ref_attributes.asp
   </nav>
 </header>
 <body>
-  <h1>Meet the <i>Knurled</i> Knurled Nut Driver</h1>
+  <h1>Meet the Knurled<sup>2</sup>Nut Driver</h1>
     <p>This page is a write up with information on how to customize, print, and
     use this 3D printed knurled nut driver bit. This bit is unlike others in
     that it <b><u>is designed to be used with a power tool</u></b>. <s>It 
@@ -54,9 +54,9 @@ For list of all attributes: https://www.w3schools.com/tags/ref_attributes.asp
     because it is designed to slip rather instead of over tightening.</p>
   <br>
   <div class="container">
-  <img src="nut.jpg" alt="A typical 3.5mm knurled nut">
-  <img src="xicon.png" alt="Xicon Driver">
-  <img src="cyl_full.png" alt="3D Printed Bit (Full)">
+  <img src="img/nut.jpg" alt="A typical 3.5mm knurled nut">
+  <img src="img/xicon.png" alt="Xicon Driver">
+  <img src="img/cyl_full.png" alt="3D Printed Bit (Full)">
   </div>
   <br>
   <br>
@@ -72,14 +72,14 @@ For list of all attributes: https://www.w3schools.com/tags/ref_attributes.asp
     <a href="https://github.com/4b11b4/knurled-nut-driver">You can find a list
     of alternative tools at the bottom of the README of the GitHub repository.</a>
     </p>
-  <img src="cyl_cutout_30deg.png" align="left" hspace="10" vspace="10">
+  <img src="img/cyl_cutout_30deg.png" align="left" hspace="10" vspace="10">
   <h2>The Design</h2>
     Initially, I designed a bit to also fit in these "slots". However, these
     were quickly destroyed when using a power tool... and the whole point of
     this design is to be able to use it <b>with a power tool</b>. You will find
     many people recommending not to do this in various places on the internet. 
     We have been successfully using this bit with a power tool in production. 
-    
+    <br><br> 
     Instead, of utilizing the slots on a knurled nut, this bit is designed to
     use the force of friction. You can see in the image on the left that the
     bit has a "cone-shaped"
@@ -91,14 +91,32 @@ For list of all attributes: https://www.w3schools.com/tags/ref_attributes.asp
     out of the slots. If you do happen to over-torque the nut, the bit simply
     spins rather than being locked into place with the nut (via the slots).
     This drastically reduces the chance for destroying your jacks with too much
-    torque. It is designed to damage the bit rather than the nut.<br><br>
+    torque. It is designed to damage the bit rather than the nut.
+    <br><br>
+    The risk of damage to your Eurorack faceplate is lessened as well. Because 
+    the bit is made of plastic (I am printing with PLA), you don't have as much
+    risk of scratching the faceplate with a metal driver.
+    <br><br>
     <a href="https://www.youtube.com/watch?v=a87VO5FZRd8">You can see the bit in action with a power tool here.</a><br>
     <!--<iframe width="420" height="315" src="https://www.youtube.com/watch?v=a87VO5FZRd8?controls=0"></iframe>-->
     In the video, the driver is set to a specific amount of torque. You can see and hear
     when it reaches the desired level of toruqe.<br><br>
-    In this video, the nuts are torqued a little bit past hand-tightened strength. You can only
-    remove them by gripping into them very hard with your fingers or nails.
-    <br><br><br>
+    In this video, the nuts are torqued slightly past hand-tightened strength.
+    You can only remove them by gripping into them very hard with your fingers
+    or nails.
+    <br><br>
+  <img src="img/cyl_cutout_30deg_teeth_bottom.png" align="left" hspace="10" vspace="10">
+  <img src="img/cyl_cutout_30deg_teeth.png" align="left" hspace="10" vspace="10">
+  <h3>Knurled... squared?</h3>
+    After some weeks of testing... I have made some improvements to the driver
+    to reduce the rate at which it wears. I added some "teeth". To do this I 
+    created a cylinder. In a for loop, I then subtracted a triangle at different
+    orientations. In other words, imagine you're making a simple circle
+    cookie... or pizza! Then, you cut out a triangle with a knife, going almost
+    to the edges. Then do that again, but first, rotate your triangle 10 degrees.
+    If you're rotating by 10 degrees, to go all the way around you'll need to
+    make (360 degrees / 10 degrees = ) 36 triangle cutouts. What you'll be left
+    with is a bunch of ridges on the inside.
   <h2>The Driver</h2>
   <h2>Customization</h2>
 </body>
