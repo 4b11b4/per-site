@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
+  <!-- what do meta tags do? -->
+  <meta charset="UTF-8">
+  <meta name="description" content="descript">
+  <meta name="author" content="4b11b4">
+  <meta name="keywords" content="electronics, electrical, engineering, pcb">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About 4b11b4</title>
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<header> <!--- Is this proper use of a header tag? -->
-  <h1>About Me</h1>
+<header>
+  <h1>Home of 4b11b4</h1>
+  <!--- Alternatively, a navigation bar would be implemented with a
+    placeholder and you woul use jQuery to insert it in any page you want.
+    Another alternative to jQuery would be "HTML Imports", but this is
+    divisively supported by browsers.
+    I don't want my personal site to need Javascript, so I'll only have it
+    on the home page. People can use the back button.
+  -->
+  <nav>
+    <ul class="topnav">
+      <li><a class="active" href=".">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./resume.html">Resume</a></li>
+      <li><a href="./portfolio.html">Portfolio</a></li>
+      <!--<li><a href="./org.html">Organizations</a></li>-->
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 <body>
-  <h2>Growing up...</h2>
+  <h1>Growing Up...</h1>
   <p>
     My name is Anton Sebastian Bilbaeno. My father named me after a Russian
     author who is excellent at portraying basic aspects of human
@@ -58,5 +82,7 @@
     am privileged to be able to see hope into the future for myself and 
     have enough time and power to learn and apply myself to nearly anything. 
   </p>
+  <h1>...Getting Older...</h1>
+  <p>These days I spend my time...</p>
 </body> 
 </html>
