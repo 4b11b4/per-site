@@ -31,10 +31,36 @@
 <body>
   <h1>Knurled<sup>2</sup> Nut Driver</h1>
     <p>
-    <b>How to:</b> customize, print, and
-    successfully use a 3D printed bit for tightening "knurled nuts" on 
-    Eurorack systems. It could be modified for other systems.<br>
-    <br>
+      <h2>
+      TL;DR
+      <a href="https://github.com/4b11b4/knurled-nut-driver">GitHub</a>
+      </h2>
+    </p>
+
+    <p>
+      <h3>
+      Updates:
+      <ul>
+        <li>1/2019: initial creation</li>
+        <li>7/2019: github made public. note: could use some better docs</li>
+      </ul>
+      </h3>
+    </p>
+
+    <hr>
+
+    <p>
+      <b>how to:</b> print, customize and
+      successfully use a 3d printed bit for tightening "knurled nuts" on 
+      eurorack systems. It could be modified for other systems. If you are
+      going to bother to print one out you might as well read on? Maybe
+      there is something helpful down there...
+    </p>
+
+    <hr>
+    
+    <h3>Why?</h3>
+    <p>
     The bit may be an improvement over existing tools for certain applications, the main reason being it
     <b><u>is designed to be used with a power tool</u></b>. If you are producing
     Eurorack modules at any volume by hand, this will reduce the duration of 
@@ -45,9 +71,10 @@
     threads on the the 3.5mm jack.<br>
     <br>
     However, <b>when using the appropriate low power driver, the risk for damage is very low.</b>
-    Risk of slipping and scratching a faceplate is minimal because the bit is 
+    Risk of slipping and scratching a faceplate is minimized
+    by the bit itself. It is
     made of plastic and not metal.
-    Additionally, if over-tightening does occur, this bit is designed to take damage
+    Additionally, if over-tightening does occur, this bit takes damage 
     instead of your equipment.<br>
     <br>
     Because the bit does experience wear, I have attempted to design it in a way that
@@ -61,7 +88,9 @@
   <img src="img/cyl_full.png" alt="3D Printed Bit (Full)">
   </div>
   <br>
-  <br>
+  
+  <hr>
+
     <h2>Other People's Designs</h2>
     <p>
     Most designs rely on two little "slots" or "notches" on the
@@ -75,12 +104,7 @@
     of alternative tools at the bottom of the README at the GitHub repository.</a>
     </p>
 
-
-  <h2>The Files</h2>
-  <p>TODO!</p>
-  <br><br>
-
-
+  <hr>
 
   <h2>The Driver (Power Tool)</h2>
     This bit is designed to be used with a power tool. Below are actual drivers
@@ -120,6 +144,8 @@
     <i>Note: these are Amazon affiliate links!</i>
     <br><br>
 
+  <hr>
+
   <img src="img/cyl_cutout_30deg.png" align="left" hspace="10" vspace="10">
   <h2>More Details About The Design</h2>
     Initially, I designed a bit to also fit in these "slots". However, these
@@ -151,7 +177,10 @@
     when it reaches the desired level of toruqe.<br><br>
     In this video, the nuts are torqued slightly past hand-tightened strength.
     <br><br>
-  <img src="img/cyl_cutout_30deg_teeth.png" align="left" hspace="10" vspace="10" class="img">
+
+  <hr>
+
+  <img src="img/cyl_cutout_30deg_teeth.png" align="left" hspace="8" vspace="8" class="img">
   <h2>Knurled... squared?</h2>
     After some weeks of testing... I have made some improvements to the driver
     to reduce the rate at which it wears. I knurled the <b><i>inside</i></b> of
@@ -159,21 +188,27 @@
     created a cylinder. Then, in a "for" loop subtracted a triangle at different
     rotations.
     <br><br>
-    In other words, imagine you're making a simple circular
-    cookie... or... pizza. Then, you cut out a triangle in the middle with a knife, going almost
-    to the edges. Then do that again, but first, rotate your triangle 10 degrees.
+    In other words, imagine you're making 
+    a pizza. Then, you cut a bit triangle centered at the middle.
+    With your knife, you cut <b><i>almost</i></b>
+    to the edges.
+    Then do that again, but first, rotate your triangle 10 degrees.
     If you're rotating by 10 degrees, to go all the way around you'll need to
-    make (360 degrees / 10 degrees = 36 - 1) 35 triangle cutouts. What you'll be left
-    with is a bunch of ridges on the inside.
+    make (360 degrees / 10 degrees = 36 - 1) 35(?) triangle cutouts.
+    If you're looking at the pizza from outside in... you'll see a bunch of 
+    a bunch of ridges poking out from the inside (the tops of all of the
+    triangles).
     <br><br>
     The rate at which the driver wears is obviously very hard to quantify. It will
     be based on these variables:
-    <br>
     <ul>
       <li>how much torque the driver is set to</li>
       <li>how hard you are pushing down</li>
-      <li>how quick you are to stop torque-ing after torque is reached</li>
+      <li>how quick you are to stop after torque is reached</li>
       <li>material used with 3D printer</li>
+    </ul<>
+
+  <hr>
   
   <h2>Customization</h2>
   You'll want to adapt this to 4 or 6mm hex bits.
