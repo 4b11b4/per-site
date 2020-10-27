@@ -1,6 +1,4 @@
 # 4b11b4's Personal Website
-This is simply a site written from scratch with vanilla HTML, CSS, and JS.
+site written from scratch vanilla HTML, ChocolateShipcookieS, and JavaScrip.
 
-I taught myself HTML when I was 12 but don't even have my own website anymore!
-
-Here it is...
+Even though I taught myself HTML in middle school... my website is lame!
