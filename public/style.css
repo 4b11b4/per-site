@@ -25,6 +25,13 @@ body {
       indigo 300px, violet 350px, red 370px);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   text-align: center;
 }
