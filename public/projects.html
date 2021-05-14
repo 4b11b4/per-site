@@ -42,18 +42,23 @@ For list of all attributes: https://www.w3schools.com/tags/ref_attributes.asp
   <ul>
     <li>
       KiField <a href="https://github.com/xesscorp/KiField/commit/2e85f352304ecbc1efd44b24de2aed57eef965a0">(view commit)</a><br>
-      I created an overly complicated way of using `git submodules`
-      in order to be able to share schematic components, schematic blocks,
-      footprints between projects in KiCad. Using submodules allowed for
-      sharing and re-using work (also inherently promoting standardization). 
-      In addition to re-use, it allowed the ability to snap to any commit
-      in a project (and then also travel back in time for the symbols, etc). It
-      also involved more nested folders (than KiField knew about) 
-      and caused much friction for
-      teammates. I spent some time fixing a bug in KiField to allow
-      for the level of nesting I introduced. Lessons learned with regard to
-      creating friction. It felt awesome
-      to find and fix this bug dough...
+      Using `git submodules`
+      to share schematic symbols, schematic blocks, and 
+      PCB footprints between projects in KiCad allowed for 
+      re-using (and encouraging standardization) schematics.<br>
+      In addition to re-use, it is possible to travel back in time for the
+      project, including the symbols, footprints, schematic blocks, etc. 
+      This apparently involved more nested folders (than KiField knew about) 
+      and so I spent some time fixing a bug in KiField to allow
+      for the level of nesting I had created. When I probably could have been
+      doing more important things.
+      It felt awesome
+      to <b>find</b> <i>and</i> fix this bug dough...
+      <br>
+      Besides nesting, I also introduced much friction for teammates using this
+      method.
+      Lessons learned creating friction. To make it easier, I could have made
+      some very helpful shell scripts.
     </li>
   </ul>
 </body>
